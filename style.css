@@ -1,17 +1,15 @@
-
 /*PAGE 1*/
 /*Banner(Home when you enter the page)*/
     .banner {
         background-image: url(Screenshot\ 2025-01-25\ at\ 20.47.34.png);
         background-repeat: no-repeat;
-        background-attachment: fixed;
         height: 650px;
         background-position: center;
         flex-direction: column;
         border-color: black;
         border: 10px;
         text-align: center;
-        margin-top: 84px;
+        margin-top: 10px;
         padding-top: 20px;
         border-radius: 10px;
     }
@@ -39,8 +37,8 @@
         border-radius: 10px;
         height: 66px;
         text-align: center;
-        position: fixed;
-        width: 99%;
+        width: 100%;
+        margin-right: 10px;
         top: 10px;
         box-shadow: 1px 1px 10px green;
     }
@@ -170,14 +168,50 @@
 .banner_contact {
     background-image: url(Screenshot\ 2025-01-25\ at\ 20.47.34.png);
         background-repeat: no-repeat;
-        background-attachment: fixed;
         height: 650px;
         background-position: center;
         flex-direction: column;
         border-color: black;
         border: 10px;
         text-align: center;
-        margin-top: 84px;
+        margin-top: 10px;
         padding-top: 20px;
         border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 437px) {
+    nav {
+        background-color: rgb(192, 220, 192);
+        border-radius: 10px;
+        height: 66px;
+        text-align: center;
+        width: 100%;
+        margin-right: 10px;
+        top: 10px;
+        box-shadow: 1px 1px 10px green;
+    }
+
+    .banner_buttons {
+        margin-top: 10px;
+    }
+
+    .banner {
+        display: flex;
+    }
 }
