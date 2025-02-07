@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="bg">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Аптека Флос</title>
-        <link rel="icon" href="Flos part.png">
-        <link rel="stylesheet" type=text/css href="style.css">
-    </head>
-    <body>
-        <nav>
-            <img class="logo_nav" src="aptekaflos.png" height="60">
-            <div class="nav_text_all">                
-                <a class="nav_text_select" href="#">Начало</a>
-                <a class="nav_text" target="_blank" href="https://betty.bg">Betty.bg</a>
-                <a class="nav_text" target="_blank" href="https://betty.bg/spisanie-betty/">Списание Betty</a>
-                <a class="nav_text" target="_blank" href="https://betty.bg/vaucheri/">Ваучери</a>
-                <a class="nav_text" href="ContactUs.html">Свържете се с нас</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аптека Флос</title>
+    <link rel="icon" href="Flos part.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <img  class="logo_nav" src="aptekaflos.png" height="60">
+        </a>
+        <div class="nav_text_all">
+            <a class="nav_text_select" href="#">Начало</a>
+            <a class="nav_text" target="_blank" href="https://betty.bg">Betty.bg</a>
+            <a class="nav_text" target="_blank" href="https://betty.bg/spisanie-betty/">Списание Betty</a>
+            <a class="nav_text" target="_blank" href="https://betty.bg/vaucheri/">Ваучери</a>
+            <a class="nav_text" href="ContactUs.html">Свържете се с нас</a>
+            <div class="menu-container">
+                <input type="checkbox" id="check">
+                <label for="check" height="19px" class="down_arrow" width="19px">
+                    <img src="menu-button_icon-icons.com_72989.png" height="19px" width="19px">
+                </label>
+                <div class="menu">
+                    <label for="check" class="down_arrow" height="19px" width="19px">
+                        <img class="close" style="margin-top: 10px;" src="letterx_83737.png" height="19px" width="19px">
+                    </label>
+                    <a class="nav_text_select" href="#">Начало</a>
+                    <a class="nav_text" target="_blank" href="https://betty.bg">Betty.bg</a>
+                    <a class="nav_text" target="_blank" href="https://betty.bg/spisanie-betty/">Списание Betty</a>
+                    <a class="nav_text" target="_blank" href="https://betty.bg/vaucheri/">Ваучери</a>
+                    <a class="nav_text" href="ContactUs.html">Свържете се с нас</a>
+                </div>
             </div>
-        </nav>
-        <div class="banner">
-            <h1 id="h1_banner">Аптека Флос</h1>
-            <a class="banner_buttons" href="ContactUs.html">Имате въпрос? Свържете се с нас</a>
-            <a class="banner_buttons" href="https://betty.bg/spisanie-betty/" target="_blank">Списание Betty</a>
         </div>
+    </nav>
+    <div class="banner">
+        <h1 id="h1_banner">Аптека Флос</h1>
+        <a class="banner_buttons" href="ContactUs.html">Имате въпрос? Свържете се с нас</a>
+        <a class="banner_buttons" href="https://betty.bg/spisanie-betty/" target="_blank">Списание Betty</a>
+    </div>
         <div class="where">
             <h2 class="text_div">Къде се намираме?</h2>
             <div class="iframe_google-maps">
@@ -32,7 +50,7 @@
         <div class="timetable">
             <h2 class="text_div">Работно Време</h2>
             <div id="timetable_in">
-                <table width="40%">
+                <table id="timetable">
                     <tr>
                         <th>Понеделник</th>
                         <td>8:00 - 20:00</td>
@@ -81,7 +99,7 @@
                         Betty.bg
                     </p>
                 </div>
-                <iframe id="youtube-video-betty" maxwidth="560" height="315" src="https://www.youtube.com/embed/-aKXvYPyuuc?si=a4XEge_XYOjTgwm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe id="youtube-video-betty" height="315" width="87%" src="https://www.youtube.com/embed/-aKXvYPyuuc?si=a4XEge_XYOjTgwm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <footer>
