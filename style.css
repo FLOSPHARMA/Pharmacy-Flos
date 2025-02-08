@@ -313,6 +313,7 @@ nav {
     #check:checked ~ .menu {
         right: 0;
         width: 100%;
+        box-shadow: 1px 1px 550px black;
     }
 
     .down_arrow {
