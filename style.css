@@ -6,6 +6,7 @@ html, body {
     display: flex;
     flex-direction: column;
     padding: 0;
+    background-color:antiquewhite;
 }
 
 main {
@@ -21,7 +22,7 @@ main {
         border-color: black;
         border: 10px;
         text-align: center;
-        margin-top: 10px;
+        
         padding-top: 20px;
         border-radius: 10px;
         margin-left: 5px;
@@ -48,10 +49,14 @@ main {
 
 /*Nav*/
 nav {
-    background-color: rgb(192, 220, 192);
+
+    border-bottom: rgb(192, 220, 192);
+    border-top: none;
+    border-left: none;
+    border-right: none;
     text-align: center;
     width: 100%;
-    box-shadow: 1px 1px 10px green;
+ 
 }
 
 .nav_text_all {
@@ -122,9 +127,10 @@ nav {
     }
 
     #text-all-betty {
-        background-color: rgb(223, 247, 224);
+        border:solid;
+        border-color: rgb(183, 227, 184);
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 15px;
         max-width: 830px;
         margin-left: 5px;
         margin-right: 5px;
@@ -142,12 +148,10 @@ nav {
 
 /*Div texts*/
     .text_div {
-        background-color: rgb(67, 135, 0);
-        color: white;
+        text-align: center;
+        color: rgb(0, 0, 0);
         padding: 10px;
-        border-radius: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
+        font-family:cursive;
     }
 
 /*iframe,where are we*/
@@ -165,7 +169,6 @@ nav {
 /*Timetable*/
     th {
         font-family:Arial, Helvetica, sans-serif;
-        background-color: rgb(237, 237, 237);
         color: black;
         font-weight: bold;
         padding: 10px;
@@ -174,7 +177,6 @@ nav {
 
     td {
         font-family:Arial, Helvetica, sans-serif;
-        background-color: rgb(237, 237, 237);
         color: black;
         padding: 10px;
         text-align: center;
@@ -192,11 +194,11 @@ nav {
     footer {
         width: 100%;
         text-align: center;
-        background-color: rgb(198, 255, 252);
+        background-color: rgb(199, 199, 199);
         margin-top: 10px;
         padding-top: 10px;
-        padding-bottom: 10px;
-        box-shadow: 1px 1px 10px green;
+        padding-bottom: 20px;
+        padding-bottom: none;
     }
 
     footer p {
