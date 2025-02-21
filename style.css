@@ -16,13 +16,12 @@ main {
     .banner {
         background-image: url(Screenshot\ 2025-01-25\ at\ 20.47.34.png);
         background-repeat: no-repeat;
-        height: 650px;
+        min-height: 650px;
         background-position: center;
         flex-direction: column;
         border-color: black;
         border: 10px;
         text-align: center;
-        
         padding-top: 20px;
         border-radius: 10px;
         margin-left: 5px;
